@@ -277,6 +277,9 @@ input[type="checkbox"]:checked {
             button{
                 padding: 8px 15px;
                 position: relative;
+                @media(max-width: 767px){
+                    padding: 8px;
+                }
                 &::after{
                     position: absolute;
                     content: "";

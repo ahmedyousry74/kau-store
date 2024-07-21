@@ -272,6 +272,11 @@ input[type=checkbox]:checked {
   padding: 8px 15px;
   position: relative;
 }
+@media (max-width: 767px) {
+  .popular__products .product__item .product__actions button {
+    padding: 8px;
+  }
+}
 .popular__products .product__item .product__actions button::after {
   position: absolute;
   content: "";
