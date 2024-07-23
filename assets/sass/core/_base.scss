@@ -325,11 +325,11 @@ input[type="checkbox"]:checked {
 }
 
 .contact_us_page{
-    input{
+    input,textarea{
         height: 48px;
-        padding-inline: 15px;
-        ::placeholder{
-            font-size: 14px !important;
+        font-size: 13px !important;
+        &::placeholder{
+            font-size: 13px !important;
         }
     }
 }
