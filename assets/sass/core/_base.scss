@@ -332,6 +332,9 @@ input[type="checkbox"]:checked {
             font-size: 13px !important;
         }
     }
+    textarea{
+        height: 120px;
+    }
 }
 
 .heartIcon{
@@ -343,5 +346,33 @@ input[type="checkbox"]:checked {
             fill: $primary-color;
             stroke: $primary-color;
         }
+    }
+}
+
+.product__details__layout{
+    .product_details_tabs{
+        .nav-tabs{
+            button{
+                border: 1px solid #ebebeb;
+                border-radius: 25px;
+                padding: 5px 25px;
+                font-size: 18px;
+                color: $third-color;
+                &.active{
+                    background-color: $primary-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    input,textarea{
+        height: 48px;
+        font-size: 13px !important;
+        &::placeholder{
+            font-size: 13px !important;
+        }
+    }
+    textarea{
+        height: 120px;
     }
 }

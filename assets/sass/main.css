@@ -323,6 +323,9 @@ input[type=checkbox]:checked {
 .contact_us_page input::placeholder, .contact_us_page textarea::placeholder {
   font-size: 13px !important;
 }
+.contact_us_page textarea {
+  height: 120px;
+}
 
 .heartIcon.active {
   color: #3BB77E;
@@ -332,6 +335,31 @@ input[type=checkbox]:checked {
   color: #3BB77E;
   fill: #3BB77E;
   stroke: #3BB77E;
+}
+
+.product__details__layout .product_details_tabs .nav-tabs button {
+  border: 1px solid #ebebeb;
+  border-radius: 25px;
+  padding: 5px 25px;
+  font-size: 18px;
+  color: #253D4E;
+}
+.product__details__layout .product_details_tabs .nav-tabs button.active {
+  background-color: #3BB77E;
+  color: #fff;
+}
+.product__details__layout input, .product__details__layout textarea {
+  height: 48px;
+  font-size: 13px !important;
+}
+.product__details__layout input::-moz-placeholder, .product__details__layout textarea::-moz-placeholder {
+  font-size: 13px !important;
+}
+.product__details__layout input::placeholder, .product__details__layout textarea::placeholder {
+  font-size: 13px !important;
+}
+.product__details__layout textarea {
+  height: 120px;
 }
 
 nav, .sec__navbar {
