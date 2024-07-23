@@ -323,3 +323,13 @@ input[type="checkbox"]:checked {
         }
     }
 }
+
+.contact_us_page{
+    input{
+        height: 48px;
+        padding-inline: 15px;
+        ::placeholder{
+            font-size: 14px !important;
+        }
+    }
+}
