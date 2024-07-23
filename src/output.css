@@ -657,8 +657,16 @@ video {
   left: 12px;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
 .right-\[-1px\] {
   right: -1px;
+}
+
+.top-5 {
+  top: 1.25rem;
 }
 
 .top-\[2px\] {
@@ -852,6 +860,10 @@ video {
   height: 100px;
 }
 
+.h-\[135px\] {
+  height: 135px;
+}
+
 .h-\[150px\] {
   height: 150px;
 }
@@ -876,6 +888,10 @@ video {
   height: 64px;
 }
 
+.h-\[400px\] {
+  height: 400px;
+}
+
 .\!w-\[100px\] {
   width: 100px !important;
 }
@@ -888,12 +904,20 @@ video {
   width: 100px;
 }
 
+.w-\[135px\] {
+  width: 135px;
+}
+
 .w-\[180px\] {
   width: 180px;
 }
 
 .w-\[20px\] {
   width: 20px;
+}
+
+.w-\[250px\] {
+  width: 250px;
 }
 
 .w-\[350px\] {
@@ -996,6 +1020,10 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -1816,6 +1844,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1950,6 +1982,11 @@ video {
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
 }
 
+.border-\[\#ebebeb\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(235 235 235 / var(--tw-border-opacity));
+}
+
 .border-\[\#ececec\] {
   --tw-border-opacity: 1;
   border-color: rgb(236 236 236 / var(--tw-border-opacity));
@@ -1958,6 +1995,10 @@ video {
 .border-fourth-color {
   --tw-border-opacity: 1;
   border-color: rgb(126 126 126 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
 }
 
 .bg-\[\#192C57\] {
@@ -2175,6 +2216,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -2265,11 +2310,6 @@ video {
 .py-\[9px\] {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
 }
 
 .pt-2 {
@@ -2397,6 +2437,18 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[1px\] {
+  font-size: 1px;
+}
+
+.text-\[155px\] {
+  font-size: 155px;
+}
+
+.text-\[27px\] {
+  font-size: 27px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2485,9 +2537,18 @@ video {
   line-height: 1.5;
 }
 
+.leading-\[1\.8\] {
+  line-height: 1.8;
+}
+
 .\!text-fourth-color {
   --tw-text-opacity: 1 !important;
   color: rgb(126 126 126 / var(--tw-text-opacity)) !important;
+}
+
+.\!text-third-color {
+  --tw-text-opacity: 1 !important;
+  color: rgb(37 61 78 / var(--tw-text-opacity)) !important;
 }
 
 .text-\[\#336699\]\/\[\.35\] {

@@ -333,3 +333,15 @@ input[type="checkbox"]:checked {
         }
     }
 }
+
+.heartIcon{
+    &.active{
+        color: $primary-color;
+        fill: $primary-color;
+        path{
+            color: $primary-color;
+            fill: $primary-color;
+            stroke: $primary-color;
+        }
+    }
+}

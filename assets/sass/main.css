@@ -324,6 +324,16 @@ input[type=checkbox]:checked {
   font-size: 13px !important;
 }
 
+.heartIcon.active {
+  color: #3BB77E;
+  fill: #3BB77E;
+}
+.heartIcon.active path {
+  color: #3BB77E;
+  fill: #3BB77E;
+  stroke: #3BB77E;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;
