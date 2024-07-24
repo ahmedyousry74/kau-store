@@ -489,6 +489,37 @@ input[type=checkbox]:checked {
   font-size: 14px;
 }
 
+.file__zone {
+  gap: 5px;
+  position: relative;
+  border: 1px solid #d0d5dd !important;
+  border-radius: 8px !important;
+  padding: 16px;
+  background-color: #f7f9fb;
+}
+.file__zone input {
+  width: 100%;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.file__zone span {
+  color: #475467;
+  font-size: 14px;
+  font-weight: 400;
+}
+.file__zone span span {
+  color: #52911b;
+  font-weight: 700;
+}
+.file__zone p {
+  color: #475467;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;
