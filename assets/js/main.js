@@ -30,3 +30,17 @@ document.querySelectorAll('.toggleButton').forEach(button => {
         heartIcon.classList.toggle('active');
     });
 });
+
+
+    //عشان تغير زرار الاكتيف على السايذ فالموديل
+    $(".size-button").click(function () {
+        $('.size-button.active').not(this).removeClass('active');
+        $(this).toggleClass('active');
+    })
+
+
+    //عشان تغير زرار الاكتيف على السايذ فالموديل
+    $(".color-button").click(function () {
+        $('.color-button.active').not(this).removeClass('active');
+        $(this).toggleClass('active');
+    })

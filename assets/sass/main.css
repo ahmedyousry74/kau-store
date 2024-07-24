@@ -362,6 +362,111 @@ input[type=checkbox]:checked {
   height: 120px;
 }
 
+.product-size span {
+  color: var(--second-color);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product-size a {
+  float: left;
+  color: var(--primary-color);
+}
+
+.product-size label {
+  color: #111111;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid #3BB77E;
+  padding: 6px 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.product-size label:hover,
+.product-size label.active {
+  background: #3BB77E;
+  color: #fff;
+  border-color: #3BB77E;
+}
+
+.product-size label input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.product-color label.black {
+  background: #0b090c;
+}
+
+.product-color label.red {
+  background: #ed1c24;
+}
+
+.product-color label.yellow {
+  background: #f1af4d;
+}
+
+.product-color label.brown {
+  background: #636068;
+}
+
+.product-color label.pink {
+  background: #e8bac4;
+}
+
+.product-color label input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.product-color label:after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #fff4eb;
+  content: "";
+  border-radius: 50%;
+}
+
+.product-color label.active {
+  box-shadow: rgba(59, 183, 125, 0.537254902) 0px 0px 1px 4px;
+}
+
+.product-color label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.product-color label:hover {
+  background: #ed1c24;
+  color: #ffffff;
+  border-color: #ed1c24;
+}
+
+.product-color label input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.product-color label.active {
+  color: #fff;
+  background-color: #e20504;
+}
+
+.product-color label:hover p {
+  opacity: 1;
+  display: block;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;
