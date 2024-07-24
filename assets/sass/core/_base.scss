@@ -364,6 +364,7 @@ input[type="checkbox"]:checked {
                 }
                 @media(max-width: 767px){
                     padding: 5px 15px;
+                    font-size: 15px;
                 }
             }
         }
@@ -379,6 +380,12 @@ input[type="checkbox"]:checked {
         textarea{
             height: 120px;
         }
+        form{
+            width: 50%;
+            @media(max-width: 580px){
+                width: 100%;
+            }
+        }
     }
 }
   .product-size span {
@@ -392,8 +399,8 @@ input[type="checkbox"]:checked {
   }
   .product-size label {
     color: #111111;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     text-transform: uppercase;
     display: inline-block;
     border: 1px solid $primary-color;

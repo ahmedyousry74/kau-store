@@ -351,6 +351,7 @@ input[type=checkbox]:checked {
 @media (max-width: 767px) {
   .product__details__layout .product_details_tabs .nav-tabs button {
     padding: 5px 15px;
+    font-size: 15px;
   }
 }
 .product__details__layout .reviews_items input, .product__details__layout .reviews_items textarea {
@@ -366,6 +367,14 @@ input[type=checkbox]:checked {
 .product__details__layout .reviews_items textarea {
   height: 120px;
 }
+.product__details__layout .reviews_items form {
+  width: 50%;
+}
+@media (max-width: 580px) {
+  .product__details__layout .reviews_items form {
+    width: 100%;
+  }
+}
 
 .product-size span {
   color: var(--second-color);
@@ -380,8 +389,8 @@ input[type=checkbox]:checked {
 
 .product-size label {
   color: #111111;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 500;
   text-transform: uppercase;
   display: inline-block;
   border: 1px solid #3BB77E;
