@@ -758,12 +758,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-\[16px\] {
+  margin-top: 16px;
 }
 
 .box-border {
@@ -3138,7 +3138,7 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mt-0 {
+  .md\:mt-\[0px\] {
     margin-top: 0px;
   }
 
