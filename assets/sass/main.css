@@ -481,6 +481,14 @@ input[type=checkbox]:checked {
   display: block;
 }
 
+.auth__layout .auth__form input::-moz-placeholder {
+  font-size: 14px;
+}
+
+.auth__layout .auth__form input::placeholder {
+  font-size: 14px;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;

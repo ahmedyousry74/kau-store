@@ -476,3 +476,13 @@ input[type="checkbox"]:checked {
     opacity: 1;
     display: block;
   }
+
+  .auth__layout{
+    .auth__form{
+        input{
+            &::placeholder{
+                font-size: 14px;
+            }
+        }
+    }
+  }
