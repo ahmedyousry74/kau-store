@@ -362,6 +362,9 @@ input[type="checkbox"]:checked {
                     background-color: $primary-color;
                     color: #fff;
                 }
+                @media(max-width: 767px){
+                    padding: 5px 15px;
+                }
             }
         }
     }

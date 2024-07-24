@@ -348,6 +348,11 @@ input[type=checkbox]:checked {
   background-color: #3BB77E;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .product__details__layout .product_details_tabs .nav-tabs button {
+    padding: 5px 15px;
+  }
+}
 .product__details__layout .reviews_items input, .product__details__layout .reviews_items textarea {
   height: 48px;
   font-size: 13px !important;
