@@ -348,17 +348,17 @@ input[type=checkbox]:checked {
   background-color: #3BB77E;
   color: #fff;
 }
-.product__details__layout input, .product__details__layout textarea {
+.product__details__layout .reviews_items input, .product__details__layout .reviews_items textarea {
   height: 48px;
   font-size: 13px !important;
 }
-.product__details__layout input::-moz-placeholder, .product__details__layout textarea::-moz-placeholder {
+.product__details__layout .reviews_items input::-moz-placeholder, .product__details__layout .reviews_items textarea::-moz-placeholder {
   font-size: 13px !important;
 }
-.product__details__layout input::placeholder, .product__details__layout textarea::placeholder {
+.product__details__layout .reviews_items input::placeholder, .product__details__layout .reviews_items textarea::placeholder {
   font-size: 13px !important;
 }
-.product__details__layout textarea {
+.product__details__layout .reviews_items textarea {
   height: 120px;
 }
 

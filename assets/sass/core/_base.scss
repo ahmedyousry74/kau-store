@@ -365,14 +365,16 @@ input[type="checkbox"]:checked {
             }
         }
     }
-    input,textarea{
-        height: 48px;
-        font-size: 13px !important;
-        &::placeholder{
+    .reviews_items{
+        input,textarea{
+            height: 48px;
             font-size: 13px !important;
+            &::placeholder{
+                font-size: 13px !important;
+            }
         }
-    }
-    textarea{
-        height: 120px;
+        textarea{
+            height: 120px;
+        }
     }
 }
