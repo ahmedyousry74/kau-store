@@ -543,6 +543,9 @@ input[type=checkbox]:checked {
 }
 
 /* start filter sidebar */
+.filter-sidebar {
+  margin-bottom: 25px;
+}
 .filter-sidebar .accordion-body {
   padding: 8px;
 }
