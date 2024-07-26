@@ -526,3 +526,23 @@ input[type="checkbox"]:checked {
         flex-wrap: wrap;
     }
 }
+.pagination{
+    .page-link{
+        border-radius: 0 !important;
+        color: $third-color;
+    }
+    .page-item{
+        &.active{
+            a{
+                border-color: $primary-color !important;
+                background-color: $primary-color !important;
+            }
+        }
+        &:hover{
+            a{
+                color: $white !important;
+                background-color: $primary-color !important;
+            }
+        }
+    }
+}

@@ -529,6 +529,19 @@ input[type=checkbox]:checked {
   }
 }
 
+.pagination .page-link {
+  border-radius: 0 !important;
+  color: #253D4E;
+}
+.pagination .page-item.active a {
+  border-color: #3BB77E !important;
+  background-color: #3BB77E !important;
+}
+.pagination .page-item:hover a {
+  color: #E6EAEF !important;
+  background-color: #3BB77E !important;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;
