@@ -44,3 +44,5 @@ document.querySelectorAll('.toggleButton').forEach(button => {
         $('.color-button.active').not(this).removeClass('active');
         $(this).toggleClass('active');
     })
+
+
