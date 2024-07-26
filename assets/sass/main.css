@@ -520,6 +520,15 @@ input[type=checkbox]:checked {
   font-weight: 400;
 }
 
+.store_item {
+  flex-wrap: nowrap;
+}
+@media (max-width: 767px) {
+  .store_item {
+    flex-wrap: wrap;
+  }
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;

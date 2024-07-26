@@ -520,3 +520,9 @@ input[type="checkbox"]:checked {
         font-weight: 400;
     }
 }
+.store_item{
+    flex-wrap: nowrap;
+    @media(max-width: 767px){
+        flex-wrap: wrap;
+    }
+}
