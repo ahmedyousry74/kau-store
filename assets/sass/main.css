@@ -543,12 +543,6 @@ input[type=checkbox]:checked {
 }
 
 /* start filter sidebar */
-.filter-sidebar {
-  padding: 10px;
-  border: 1px solid #ececec;
-  border-radius: 15px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
-}
 .filter-sidebar .accordion-body {
   padding: 8px;
 }
@@ -561,11 +555,16 @@ input[type=checkbox]:checked {
 }
 
 .filter-sidebar #sidebar {
+  padding: 10px;
   transition: all 0.3s;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .filter-sidebar #sidebar.active {
   margin-left: -450px;
+  margin-top: 15px;
 }
 
 .filter-sidebar #sidebar .sidebar-header {
@@ -595,7 +594,8 @@ input[type=checkbox]:checked {
 .filter-sidebar .accordion-button {
   background: transparent;
   color: #253D4E;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .filter-sidebar .accordion-button:not(.collapsed) {
@@ -615,8 +615,9 @@ input[type=checkbox]:checked {
 }
 
 .filter-sidebar .form-check label {
-  color: var(--fourth-color);
+  color: #253D4E;
   margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .filter-sidebar .form-check-input:checked {
@@ -692,17 +693,12 @@ input[type=checkbox]:checked {
     width: 100%;
   }
   .filter-sidebar #sidebarCollapse {
-    display: block;
+    display: flex;
   }
 }
 @media (max-width: 768px) {
   #sidebar {
     margin-left: -250px;
-  }
-  #sidebarCollapse span {
-    display: inline-block;
-    color: #fff;
-    margin-left: 5px;
   }
 }
 /* start filter sidebar */
