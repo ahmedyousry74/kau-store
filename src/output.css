@@ -995,10 +995,6 @@ video {
   max-width: 144px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1871,10 +1867,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-\[12px\] {
-  border-radius: 12px;
-}
-
 .rounded-\[15px\] {
   border-radius: 15px;
 }
@@ -1885,6 +1877,10 @@ video {
 
 .rounded-\[4px\] {
   border-radius: 4px;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
 }
 
 .rounded-\[6px\] {
@@ -1901,10 +1897,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-\[5px\] {
-  border-radius: 5px;
 }
 
 .rounded-b {
@@ -2302,6 +2294,10 @@ video {
   padding: 15px;
 }
 
+.p-\[25px\] {
+  padding: 25px;
+}
+
 .p-\[8px\] {
   padding: 8px;
 }
@@ -2399,11 +2395,6 @@ video {
 .py-\[9px\] {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
 }
 
 .pb-5 {
@@ -2681,6 +2672,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(230 234 239 / var(--tw-text-opacity));
+}
+
+.\!text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(230 234 239 / var(--tw-text-opacity)) !important;
 }
 
 .underline {
@@ -2989,18 +2985,6 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-\[\] {
-  transition-property: ;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[0\.5s\] {
-  transition-property: 0.5s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -3062,11 +3046,6 @@ video {
   }
 }
 
-.hover\:bg-second-color:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(222 249 236 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-primary-color:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(59 183 126 / var(--tw-bg-opacity));
@@ -3076,19 +3055,14 @@ video {
   font-weight: 700;
 }
 
-.hover\:text-primary-color:hover {
-  --tw-text-opacity: 1;
-  color: rgb(59 183 126 / var(--tw-text-opacity));
-}
-
-.hover\:\!text-primary-color:hover {
-  --tw-text-opacity: 1 !important;
-  color: rgb(59 183 126 / var(--tw-text-opacity)) !important;
-}
-
 .hover\:\!text-white:hover {
   --tw-text-opacity: 1 !important;
   color: rgb(230 234 239 / var(--tw-text-opacity)) !important;
+}
+
+.hover\:text-primary-color:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 183 126 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before {
@@ -3235,6 +3209,10 @@ video {
     font-size: 20px;
   }
 
+  .sm\:text-\[22px\] {
+    font-size: 22px;
+  }
+
   .sm\:text-\[27px\] {
     font-size: 27px;
   }
@@ -3249,10 +3227,6 @@ video {
 
   .sm\:text-\[55px\] {
     font-size: 55px;
-  }
-
-  .sm\:text-\[22px\] {
-    font-size: 22px;
   }
 
   .sm\:underline {

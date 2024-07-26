@@ -520,11 +520,11 @@ input[type=checkbox]:checked {
   font-weight: 400;
 }
 
-.store_item {
+.store_item, .store__banner {
   flex-wrap: nowrap;
 }
 @media (max-width: 767px) {
-  .store_item {
+  .store_item, .store__banner {
     flex-wrap: wrap;
   }
 }
