@@ -698,3 +698,8 @@ input[type="checkbox"]:checked {
   .collapse {
     visibility: visible !important;
 }  
+.address_item{
+  input:checked + label{
+    border-color: $primary-color !important;
+  }
+}
