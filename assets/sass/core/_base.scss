@@ -703,3 +703,7 @@ input[type="checkbox"]:checked {
     border-color: $primary-color !important;
   }
 }
+
+.categories__items__list,.categories_item{
+  border: 1px solid $primary-color !important;
+}

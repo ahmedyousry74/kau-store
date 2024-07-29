@@ -713,6 +713,10 @@ input[type=checkbox]:checked {
   border-color: #3BB77E !important;
 }
 
+.categories__items__list, .categories_item {
+  border: 1px solid #3BB77E !important;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;
