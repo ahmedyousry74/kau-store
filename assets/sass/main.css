@@ -717,6 +717,11 @@ input[type=checkbox]:checked {
   border: 1px solid #3BB77E !important;
 }
 
+@media (max-width: 767px) {
+  .product_details_imgs {
+    overflow-x: scroll;
+  }
+}
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;

@@ -707,3 +707,8 @@ input[type="checkbox"]:checked {
 .categories__items__list,.categories_item{
   border: 1px solid $primary-color !important;
 }
+@media(max-width: 767px){
+  .product_details_imgs{
+    overflow-x: scroll;
+  }
+}
