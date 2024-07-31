@@ -722,6 +722,37 @@ input[type=checkbox]:checked {
     overflow-x: scroll;
   }
 }
+.profile__layout .nav button {
+  border: 1px solid #ccc !important;
+  border-radius: 6px;
+  padding: 10px 15px;
+  color: #253D4E;
+  background-color: transparent;
+}
+.profile__layout .nav button.active {
+  background-color: #3BB77E;
+  color: #fff;
+  border-color: #3BB77E !important;
+}
+.profile__layout .nav button.active svg, .profile__layout .nav button.active path {
+  color: #fff !important;
+  fill: #fff !important;
+}
+.profile__layout .input-group .input-group-text {
+  background-color: transparent !important;
+  border-radius: 0 4px 4px 0 !important;
+  border-inline-end: 0;
+}
+.profile__layout .input-group input {
+  border-inline-start: 0;
+  border-radius: 4px 0 0 4px !important;
+}
+.profile__layout .input-group input:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+  border-color: #ccc !important;
+}
+
 nav, .sec__navbar {
   background-color: transparent;
   width: 100%;
