@@ -294,8 +294,165 @@
                         <button type="submit" class="bg-primary-color !text-[#fff] py-[8px] px-[15px] rounded-[6px] w-[100px] font-medium"> تعديل </button>
                       </form>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-change-password" role="tabpanel" aria-labelledby="v-pills-change-password-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="v-pills-addresses" role="tabpanel" aria-labelledby="v-pills-addresses-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="v-pills-change-password" role="tabpanel" aria-labelledby="v-pills-change-password-tab" tabindex="0">
+                      <form action="">
+                        <div class="input-group mb-4">
+                          <span class="input-group-text" id="basic-addon1"> <img src="./assets/images/lock.svg" alt="user" width="22" height="22"> </span>
+                          <input type="text" class="form-control h-[48px]" id="" placeholder="كلمة المرور القديمة">
+                        </div>
+                        <div class="input-group mb-4">
+                          <span class="input-group-text" id="basic-addon1"> <img src="./assets/images/lock.svg" alt="user" width="22" height="22"> </span>
+                          <input type="text" class="form-control h-[48px]" id="" placeholder="كلمة المرور الجديدة">
+                        </div>
+                        <div class="input-group mb-4">
+                          <span class="input-group-text" id="basic-addon1"> <img src="./assets/images/lock.svg" alt="user" width="22" height="22"> </span>
+                          <input type="text" class="form-control h-[48px]" id="" placeholder="  تأكيد كلمة المرور الجديدة" >
+                        </div>
+                        <button type="submit" class="bg-primary-color !text-[#fff] py-[8px] px-[15px] rounded-[6px] w-[100px] font-medium"> تعديل </button>
+                      </form>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-addresses" role="tabpanel" aria-labelledby="v-pills-addresses-tab" tabindex="0">
+                      <div class="flex justify-end items-end flex-row mb-4">
+                        <a href="./add-address.html" class="bg-primary-color text-[#fff] flex justify-center items-center flex-row rounded-[6px] py-[8px] px-[15px]"> إضافة عنوان جديد </a>
+                      </div>
+                      <div class="address__items flex justify-start items-start flex-col gap-4 w-100">
+                        <div class="address_item w-100 border border-solid border-[#ebebeb] p-4 rounded-[12px] flex justify-between items-start flex-row">
+                            <div class="flex justify-start items-start flex-row gap-2">
+                                <div class="location_icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9999 13.4299C13.723 13.4299 15.1199 12.0331 15.1199 10.3099C15.1199 8.58681 13.723 7.18994 11.9999 7.18994C10.2768 7.18994 8.87988 8.58681 8.87988 10.3099C8.87988 12.0331 10.2768 13.4299 11.9999 13.4299Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                        <path d="M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="flex justify-start items-start flex-col gap-2">
+                                    <span class="text-third-color font-semibold text-[18px]"> مكه </span>
+                                    <span class="text-third-color font-medium text-[17px]"> منقطة 1 - حي 1 </span>
+                                    <p class="text-fourth-color font-medium text-[15px] mb-0"> MEMB3077، 3077 طريق مشاة، 8360، المشاعر، مكة 24258، السعودية </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-start items-center flex-row gap-2">
+                              <a href="./edit-address.html"> <img src="./assets/images/edit.svg" alt="edit" width="20" height="20"> </a>
+                              <button type="submit">  
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M10.3301 16.5H13.6601" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M9.5 12.5H14.5" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                              </button>
+                            </div>
+                        </div>
+                        <div class="address_item w-100 border border-solid border-[#ebebeb] p-4 rounded-[12px] flex justify-between items-start flex-row">
+                            <div class="flex justify-start items-start flex-row gap-2">
+                                <div class="location_icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9999 13.4299C13.723 13.4299 15.1199 12.0331 15.1199 10.3099C15.1199 8.58681 13.723 7.18994 11.9999 7.18994C10.2768 7.18994 8.87988 8.58681 8.87988 10.3099C8.87988 12.0331 10.2768 13.4299 11.9999 13.4299Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                        <path d="M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="flex justify-start items-start flex-col gap-2">
+                                    <span class="text-third-color font-semibold text-[18px]"> مكه </span>
+                                    <span class="text-third-color font-medium text-[17px]"> منقطة 1 - حي 1 </span>
+                                    <p class="text-fourth-color font-medium text-[15px] mb-0"> MEMB3077، 3077 طريق مشاة، 8360، المشاعر، مكة 24258، السعودية </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-start items-center flex-row gap-2">
+                              <a href="./edit-address.html"> <img src="./assets/images/edit.svg" alt="edit" width="20" height="20"> </a>
+                              <button type="submit">  
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M10.3301 16.5H13.6601" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M9.5 12.5H14.5" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                              </button>
+                            </div>
+                        </div>
+                        <div class="address_item w-100 border border-solid border-[#ebebeb] p-4 rounded-[12px] flex justify-between items-start flex-row">
+                            <div class="flex justify-start items-start flex-row gap-2">
+                                <div class="location_icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9999 13.4299C13.723 13.4299 15.1199 12.0331 15.1199 10.3099C15.1199 8.58681 13.723 7.18994 11.9999 7.18994C10.2768 7.18994 8.87988 8.58681 8.87988 10.3099C8.87988 12.0331 10.2768 13.4299 11.9999 13.4299Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                        <path d="M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="flex justify-start items-start flex-col gap-2">
+                                    <span class="text-third-color font-semibold text-[18px]"> مكه </span>
+                                    <span class="text-third-color font-medium text-[17px]"> منقطة 1 - حي 1 </span>
+                                    <p class="text-fourth-color font-medium text-[15px] mb-0"> MEMB3077، 3077 طريق مشاة، 8360، المشاعر، مكة 24258، السعودية </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-start items-center flex-row gap-2">
+                              <a href="./edit-address.html"> <img src="./assets/images/edit.svg" alt="edit" width="20" height="20"> </a>
+                              <button type="submit">  
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M10.3301 16.5H13.6601" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M9.5 12.5H14.5" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                              </button>
+                            </div>
+                        </div>
+                        <div class="address_item w-100 border border-solid border-[#ebebeb] p-4 rounded-[12px] flex justify-between items-start flex-row">
+                            <div class="flex justify-start items-start flex-row gap-2">
+                                <div class="location_icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9999 13.4299C13.723 13.4299 15.1199 12.0331 15.1199 10.3099C15.1199 8.58681 13.723 7.18994 11.9999 7.18994C10.2768 7.18994 8.87988 8.58681 8.87988 10.3099C8.87988 12.0331 10.2768 13.4299 11.9999 13.4299Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                        <path d="M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="flex justify-start items-start flex-col gap-2">
+                                    <span class="text-third-color font-semibold text-[18px]"> مكه </span>
+                                    <span class="text-third-color font-medium text-[17px]"> منقطة 1 - حي 1 </span>
+                                    <p class="text-fourth-color font-medium text-[15px] mb-0"> MEMB3077، 3077 طريق مشاة، 8360، المشاعر، مكة 24258، السعودية </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-start items-center flex-row gap-2">
+                              <a href="./edit-address.html"> <img src="./assets/images/edit.svg" alt="edit" width="20" height="20"> </a>
+                              <button type="submit">  
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M10.3301 16.5H13.6601" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M9.5 12.5H14.5" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                              </button>
+                            </div>
+                        </div>
+                        <div class="address_item w-100 border border-solid border-[#ebebeb] p-4 rounded-[12px] flex justify-between items-start flex-row">
+                            <div class="flex justify-start items-start flex-row gap-2">
+                                <div class="location_icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9999 13.4299C13.723 13.4299 15.1199 12.0331 15.1199 10.3099C15.1199 8.58681 13.723 7.18994 11.9999 7.18994C10.2768 7.18994 8.87988 8.58681 8.87988 10.3099C8.87988 12.0331 10.2768 13.4299 11.9999 13.4299Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                        <path d="M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z" stroke="#3BB77E" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                                <div class="flex justify-start items-start flex-col gap-2">
+                                    <span class="text-third-color font-semibold text-[18px]"> مكه </span>
+                                    <span class="text-third-color font-medium text-[17px]"> منقطة 1 - حي 1 </span>
+                                    <p class="text-fourth-color font-medium text-[15px] mb-0"> MEMB3077، 3077 طريق مشاة، 8360، المشاعر، مكة 24258، السعودية </p>
+                                </div>
+                            </div>
+                            <div class="flex justify-start items-center flex-row gap-2">
+                              <a href="./edit-address.html"> <img src="./assets/images/edit.svg" alt="edit" width="20" height="20"> </a>
+                              <button type="submit">  
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M21 5.97998C17.67 5.64998 14.32 5.47998 10.98 5.47998C9 5.47998 7.02 5.57998 5.04 5.77998L3 5.97998" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.5 4.97L8.72 3.66C8.88 2.71 9 2 10.69 2H13.31C15 2 15.13 2.75 15.28 3.67L15.5 4.97" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M18.8499 9.14001L18.1999 19.21C18.0899 20.78 17.9999 22 15.2099 22H8.7899C5.9999 22 5.9099 20.78 5.7999 19.21L5.1499 9.14001" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M10.3301 16.5H13.6601" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M9.5 12.5H14.5" stroke="red" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                              </button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
                     <div class="tab-pane fade" id="v-pills-orders" role="tabpanel" aria-labelledby="v-pills-orders-tab" tabindex="0">...</div>
                   </div>
             </div>
