@@ -2553,6 +2553,21 @@ video {
   padding-bottom: 9px;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -2861,6 +2876,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(230 234 239 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .\!underline {
